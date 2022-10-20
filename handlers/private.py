@@ -22,7 +22,7 @@ async def start(_, message: Message):
                         "🔊 ᴀsɪsᴛᴀɴ", url="https://t.me/maga_music_assistant"
                     ),
                     InlineKeyboardButton(
-                        "📚  ɢʀᴏᴜᴘ​" url="https://t.me/kr_sohbett_guruppp"
+                        "📚  ɢʀᴏᴜᴘ​", url="https://t.me/kr_sohbett_guruppp"
                     )
                 ],
                 [
