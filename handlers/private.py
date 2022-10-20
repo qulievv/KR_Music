@@ -22,7 +22,7 @@ async def start(_, message: Message):
                         "🔊 ᴀsɪsᴛᴀɴ", url="https://t.me/maga_music_assistant"
                     ),
                     InlineKeyboardButton(
-                        "📚  ɢʀᴏᴜᴘ​", url="https://t.me/kr_sohbett_guruppp
+                        "📚  ɢʀᴏᴜᴘ ​", url="https://t.me/kr_sohbett_guruppp
                     )
                 ],
                 [
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "ɢᴇʀɪ 🔄", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "ᴄʀᴇᴀᴛᴏʀ🇦🇿", url="https://t.me/BrendUIvi")
+                         "ᴄʀᴇᴀᴛᴏʀ🇦🇿", url="https://t.me/Karabakh_oo1")
                  ]
              ]
          )
@@ -140,7 +140,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🔊 ᴀsɪsᴛᴀɴ", url="https://t.me/Maga_music_assistant"
                     ),
                     InlineKeyboardButton(
-                        "📚 ɢʀᴏᴜᴘ​", url="https://t.me/kr_sohbett_gurupp"
+                        "📚 ɢʀᴏᴜᴘ ​", url="https://t.me/kr_sohbett_gurupp"
                     )
                 ],
                 [
