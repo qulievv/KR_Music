@@ -94,7 +94,7 @@ async def cls(_, query: CallbackQuery):
 
 # EfsaneMusicVaves düzenlenmiştir.
 
-@Client.on_message(command(["play", "oynat"]) 
+@Client.on_message(command(["play", "raven"]) 
                    & filters.group
                    & ~filters.edited 
                    & ~filters.forwarded
@@ -109,7 +109,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "UlviMusicAsistant"
+        user.first_name = "ᴋʀ ᴍᴜsɪᴄ ᴍᴘ3​ Assistan"
     usar = user
     wew = usar.id
     try:
@@ -133,12 +133,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>🔵 Taşan Gözləmə xətası 🔵</b> \n\Salam {user.first_name}, Faydalı userbot çoxlu qoşulma sorğularına görə qrupunuza qoşula bilmədi. Userbot-un qrupda qadağan edilmədiyinə əmin olun və sonra yenidən cəhd edin!")
+                        f"<b>🔵  Gözləmə xətası 🔵</b> \n\Salam {user.first_name}, Faydalı userbot çoxlu qoşulma sorğularına görə qrupunuza qoşula bilmədi. Userbot-un qrupda qadağan edilmədiyinə əmin olun və sonra yenidən cəhd edin!")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>Salam {user.first_name}, Asistan Söhbədə Yoxdur🙄, /asistan əlavə etmək üçün əmr.</i>")
+            f"<i>Salam {user.first_name}, Asistan Söhbətdə Yoxdur❌, /asistan əlavə etmək üçün əmr.</i>")
         return
     
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
@@ -198,8 +198,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🚀 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/UlviSup"),
-                InlineKeyboardButton("📚 ᴋᴀɴᴀʟ", url=f"https://t.me/UlviProject"),
+                InlineKeyboardButton("🚀 ɢʀᴏᴜᴘ​", url=f"https://t.me/kr_sohbet_group"),
+                InlineKeyboardButton("📚 ᴋᴀɴᴀʟ", url=f"https://t.me/maga_blog"),
             ],[
                 InlineKeyboardButton("📲 ʙᴀɢʟᴀ", callback_data="cls"),
             ],
@@ -263,8 +263,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🚀 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/UlviSup"),
-                InlineKeyboardButton("📚 ᴋᴀɴᴀʟ", url=f"https://t.me/UlviProject"),
+                InlineKeyboardButton("🚀 ɢʀᴏᴜᴘ​", url=f"https://t.me/kr_sohbet_group"),
+                InlineKeyboardButton("📚 ᴋᴀɴᴀʟ", url=f"https://t.me/maga_blog"),
             ],[
                 InlineKeyboardButton("📲 ʙᴀɢʟᴀ", callback_data="cls"),
             ],
