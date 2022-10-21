@@ -22,7 +22,7 @@ async def start(_, message: Message):
                         "🔊 ᴀsɪsᴛᴀɴ", url="https://t.me/maga_music_assistant"
                     ),
                     InlineKeyboardButton(
-                        "📚  ɢʀᴏᴜᴘ​", url="https://t.me/kr_sohbett_guruppp"
+                        "📚  ɢʀᴏᴜᴘ​", url="https://t.me/kr_sohbet_group"
                     )
                 ],
                 [
@@ -140,7 +140,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🔊 ᴀsɪsᴛᴀɴ", url="https://t.me/Maga_music_assistant"
                     ),
                     InlineKeyboardButton(
-                        "📚 ɢʀᴏᴜᴘ", url="https://t.me/kr_sohbett_gurupp"
+                        "📚 ɢʀᴏᴜᴘ", url="https://t.me/kr_sohbet_group"
                     )
                 ],
                 [
